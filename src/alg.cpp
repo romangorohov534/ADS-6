@@ -1,10 +1,4 @@
 
-#include <fstream>
-#include <locale>
-#include <cstdlib>
-using namespace std;
-#include <cctype>
-
 BST<std::string> makeTree(char* filename)
 {
 
@@ -37,7 +31,6 @@ if (flag == false && temp != "")
 {
 BS.add(temp);
 temp = "";
-}
 }
 return BS;
 }
