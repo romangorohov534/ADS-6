@@ -33,7 +33,6 @@ BST<std::string> makeTree(char* filename)
 
 		(*tree).add(w);
 		w = "";
-	}
 
 	return *tree;
 }
